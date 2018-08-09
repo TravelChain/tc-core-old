@@ -170,6 +170,7 @@ void application_impl::reset_p2p_node(const fc::path& data_dir)
          "66.70.189.25:4242",              
          "144.76.219.186:4243",             
          "142.44.247.175:4242", 
+
       };
       for( const string& endpoint_string : seeds )
       {
